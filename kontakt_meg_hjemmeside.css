@@ -1,0 +1,54 @@
+
+.alt {
+    text-align: center;
+    font-family: Sans-serif;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, #232941, #18171C);
+}
+
+
+/* Knapper på toppen */
+.knapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.forside, .om_meg, .mine_prosjekter, .kontakt_meg, .mine_mål {
+    padding: 15px 25px;
+    border: 1px white solid;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+}
+.forside:hover, .om_meg:hover, .mine_prosjekter:hover, .kontakt_meg:hover, .mine_mål:hover {
+    background-color: white;
+    color: black;
+}
+
+.overskirft {
+    color: aliceblue;
+    font-size: 75px;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+.linkedin img {
+    width: 70px;
+    height: auto;
+}
+
+.facebook img {
+    width: 85px;
+    height: auto;
+}
+.logoer {
+    display: flex;
+    justify-content: center;
+    
+
+}
